@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { io } from "socket.io-client";
 
-const socket = io("https://nextjs-socketio-api.vercel.app");
+const socket = io("https://nextjs-socketio-api.onrender.com");
 
 export default function Chat() {
   const [message, setMessage] = useState("");
